@@ -1,3 +1,12 @@
 <templateSet group="PHP">
-  <template name="sget" value="echo 111;" description="注释swagger-get" toReformat="true" toShortenFQNames="true" />
+  <template name="sget" value="    /**&#10;     * @SWG\Get(&#10;     *     path=&quot;/$END$&quot;,&#10;     *     summary=&quot;获取用户歌单&quot;,&#10;     *     description=&quot;获取用户歌单&quot;,&#10;     *     @SWG\Parameter(&#10;     *         name=&quot;uid&quot;,&#10;     *         in=&quot;query&quot;,&#10;     *         description=&quot;用户id&quot;,&#10;     *         required=true,&#10;     *         type=&quot;string&quot;&#10;     *     ),&#10;     *     @SWG\Response(&#10;     *         response=200,&#10;     *         description=&quot;successful operation&quot;,&#10;     *         ),&#10;     *     ),&#10;     *     @SWG\Response(&#10;     *         response=&quot;400&quot;,&#10;     *         description=&quot;fail&quot;,&#10;     *     )&#10;     * )&#10;     */" description="注释swagger-get" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="shead" value="    /**&#10;     * @SWG\Swagger(&#10;     *    swagger=&quot;2.0.13&quot;,&#10;     *     schemes={&quot;https&quot;, &quot;http&quot;},&#10;     *     host=&quot;xxx&quot;,&#10;     *     basePath=&quot;/api&quot;,&#10;     *     @SWG\Info(&#10;     *         version=&quot;0.0.1&quot;,&#10;     *         title=&quot;CloudMusic Api 文档&quot;,&#10;     *         description=&quot;CloudMusic Api 文档&quot;&#10;     *     )&#10;     * )&#10;     */" description="注释swagger-header" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
