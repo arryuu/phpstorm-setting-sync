@@ -1,0 +1,5 @@
+<keymap version="1" name="Default copy 1" parent="$default">
+  <action id="Macro.format and save">
+    <keyboard-shortcut first-keystroke="ctrl alt 1" />
+  </action>
+</keymap>
