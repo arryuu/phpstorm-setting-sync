@@ -7,12 +7,12 @@
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="/Applications/XAMPP/xamppfiles/bin/php-7.3.0" id="6b43a720-003b-4364-89b4-6ae0ce65d191" name="PHP" debugger_id="php.debugger.XDebug" />
+      <interpreter home="/Applications/XAMPP/xamppfiles/bin/php-7.3.0" id="6b43a720-003b-4364-89b4-6ae0ce65d191" name="PHP-7.3.0" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
-      <interpreter name="PHP">
+      <interpreter name="PHP-7.3.0">
         <phpinfo binary_type="PHP" php_cgi="/Applications/XAMPP/xamppfiles/bin/php-cgi" php_cli="/Applications/XAMPP/xamppfiles/bin/php-7.3.0" path_separator=":" version="7.3.0">
           <additional_php_ini />
           <configuration_file>/Applications/XAMPP/xamppfiles/etc/php.ini</configuration_file>
