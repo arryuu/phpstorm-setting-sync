@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="linux" type="AUTO_DETECTED" />
       <mapping pattern="js插件.md" type="AUTO_DETECTED" />
+      <mapping pattern=".prettierrc" type="JSON" />
       <mapping ext="yml2" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
