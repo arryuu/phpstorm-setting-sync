@@ -3,8 +3,9 @@
     <extensionMap>
       <mapping pattern="linux" type="AUTO_DETECTED" />
       <mapping pattern="js插件.md" type="AUTO_DETECTED" />
-      <mapping pattern=".prettierrc" type="JSON" />
+      <mapping pattern=".prettierrc" type="PLAIN_TEXT" />
       <mapping ext="yml2" type="PLAIN_TEXT" />
+      <removed_mapping pattern=".prettierrc" approved="true" type="JSON" />
     </extensionMap>
   </component>
 </application>
